@@ -111,7 +111,7 @@ if ($termino==true)
      $arr_correo = $resultado->fetch_assoc();
      $email=$arr_correo['correo'];
      $username_64=base64_encode($username);
-     $link="http://training-a-book.atwebpages.com/reporte.html?user=".$username_64."&id_cuento=".$id_cuento;
+     $link="http://training-abook.eplab.cl/reporte.html?user=".$username_64."&id_cuento=".$id_cuento;
      
     $email_message="el usuario: ".$username."\n ha completado de leer un cuento\n .<br>para ver su puntuacion visite el siguiente link: ".$link ."\n gracias por participar";
    
